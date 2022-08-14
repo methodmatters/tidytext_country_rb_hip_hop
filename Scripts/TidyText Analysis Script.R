@@ -7,7 +7,7 @@ library(stringr)
 
 # read in raw data
 # specify here the directory where the raw data are kept
-in_dir <- "/home/mike/Data Analysis Projects/country_music/Merged Data/Data/Derived/"
+in_dir <- "/directory/"
 # raw data are available in this Github repo: 
 # https://github.com/methodmatters/scattertext_country_rb_hip_hop
 raw_data <- read_csv(paste0(in_dir, "country_rbhh_blog.csv"))
